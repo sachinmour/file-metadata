@@ -1,0 +1,31 @@
+{
+  "name": "file-metadata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sachinmour/file-metadata.git"
+  },
+  "keywords": [
+    "file-metadata",
+    "microservice",
+    "freecodecamp"
+  ],
+  "author": "Sachin Mour",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sachinmour/file-metadata/issues"
+  },
+  "homepage": "https://github.com/sachinmour/file-metadata#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "multer": "^1.1.0"
+  },
+  "engines": {
+    "node": "4.2.4"
+  }
+}

@@ -5,6 +5,8 @@ var express = require('express'),
     
 var app = express();
 
+app.use('/controllers', express.static(process.cwd() + '/app/controllers'));
+
 routes(app);
 
 var port = process.env.PORT || 8080;

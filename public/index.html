@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>File Metadata Microservice</title>
+        <script type="text/javascript" src="//code.jquery.com/jquery-2.2.0.min.js"></script>
+        <script type="text/javascript" src="/controllers/fileSize.client.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <form action="/upload" method="POST" enctype="multipart/form-data" role="form">
+              Select a file to upload:
+              <input type="file" name="file_size"> 
+              <input type="submit" value="Upload">
+            </form>
+        </div>
+    </body>
+</html>
